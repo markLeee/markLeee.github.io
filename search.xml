@@ -9,8 +9,8 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[All tags]]></title>
-    <url>%2Ftags%2Findex.html</url>
+    <title><![CDATA[about]]></title>
+    <url>%2Fabout%2Findex.html</url>
     <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
@@ -19,8 +19,8 @@
     <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
-    <title><![CDATA[about]]></title>
-    <url>%2Fabout%2Findex.html</url>
+    <title><![CDATA[All tags]]></title>
+    <url>%2Ftags%2Findex.html</url>
     <content type="text"><![CDATA[]]></content>
   </entry>
 </search>
