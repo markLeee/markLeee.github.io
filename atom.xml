@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>MarkLee&#39;s Blog</title>
-  <icon>https://www.gravatar.com/avatar/de409fe841828c4685f3ca135f559e41</icon>
+  <title>MarkLees&#39;Blok</title>
+  
   
   <link href="/atom.xml" rel="self"/>
   
@@ -11,7 +11,7 @@
   
   <author>
     <name>markLee</name>
-    <email>lee_930927@163.com</email>
+    
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>

@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next mist use-motion" lang="zh-CN">
+<html class="theme-next mist use-motion" lang="zh-CN,default">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -66,6 +66,12 @@
 
 
 
+  
+  
+    
+  
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" rel="stylesheet" type="text/css" />
+
 
 
 
@@ -110,7 +116,9 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+  
+
+<link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
 
 <link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
 
@@ -145,9 +153,9 @@
     scheme: 'Mist',
     version: '6.3.0',
     sidebar: {"position":"left","display":"hide","offset":12,"b2t":false,"scrollpercent":true,"onmobile":true},
-    fancybox: false,
-    fastclick: false,
-    lazyload: false,
+    fancybox: true,
+    fastclick: true,
+    lazyload: true,
     tabs: true,
     motion: {"enable":true,"async":true,"transition":{"post_block":"perspectiveLeftIn","post_header":"fadeIn","post_body":"fadeIn","coll_header":"perspectiveLeftIn","sidebar":"slideUpIn"}},
     algolia: {
@@ -166,10 +174,11 @@
 
 
 
-  <meta property="og:type" content="website">
+  <meta name="keywords" content="前端web,HTML,CSS,JavaScript">
+<meta property="og:type" content="website">
 <meta property="og:title" content="about">
 <meta property="og:url" content="https://www.marklee.top/about/index.html">
-<meta property="og:site_name" content="MarkLee&#39;s Blog">
+<meta property="og:site_name" content="MarkLees&#39;Blok">
 <meta property="og:locale" content="zh-CN">
 <meta property="og:updated_time" content="2018-06-01T07:52:25.979Z">
 <meta name="twitter:card" content="summary">
@@ -177,7 +186,7 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="MarkLee's Blog" type="application/atom+xml" />
+  <link rel="alternate" href="/atom.xml" title="MarkLees'Blok" type="application/atom+xml" />
 
 
 
@@ -192,7 +201,7 @@
   };
 </script>
 
-  <title>about | MarkLee's Blog</title>
+  <title>about | MarkLees'Blok</title>
   
 
 
@@ -258,7 +267,7 @@ fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hov
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">MarkLee's Blog</span>
+        <span class="site-title">MarkLees'Blok</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -486,7 +495,7 @@ fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hov
                 alt="markLee" />
             
               <p class="site-author-name" itemprop="name">markLee</p>
-              <p class="site-description motion-element" itemprop="description">反手就是一张过去的CD~</p>
+              <p class="site-description motion-element" itemprop="description"></p>
           </div>
 
           
@@ -668,10 +677,19 @@ show_date_time();
       <div class="footer-inner">
         <div class="copyright">&copy; 2017 &mdash; <span itemprop="copyrightYear">2018</span>
   <span class="with-love" id="animate">
-    <i class="fa fa-flag"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">markLee</span>
 
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-pencil"></i>
+    </span>
+    
+      <span class="post-meta-item-text">站点总字数：</span>
+    
+    <span title="站点总字数">2k</span>
   
 
   
@@ -691,7 +709,7 @@ show_date_time();
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共字</span>
+  <span class="post-count">TIP:电脑浏览体验更佳~</span>
 </div>
 
 
@@ -757,12 +775,18 @@ show_date_time();
 
 
 
+  
+
+
+
+  
 
 
 
 
 
 
+  
 
 
 
@@ -782,17 +806,32 @@ show_date_time();
 
   
   
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
   
 
   
   
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fastclick/1.0.6/fastclick.min.js"></script>
   
 
   
   
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.1/velocity.ui.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
   
 
   
