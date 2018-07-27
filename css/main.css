@@ -2063,7 +2063,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #fffee7;
+  background: #b47aff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3055,7 +3055,7 @@ hr {
   }
 }
 body {
-  background: url("../../images/ae86.jpg") no-repeat fixed;
+  background: url("../../uploads/ae86.jpg") no-repeat fixed;
 }
 .headband {
   height: 1.5px;
@@ -3072,8 +3072,9 @@ body {
   padding-top: 0px;
   padding-bottom: 0px;
 }
+.header-inner:before,
 .header-inner:after {
-  clear: none;
+  display: none;
 }
 .container .header-inner {
   width: 100%;
@@ -3086,6 +3087,7 @@ body {
 .site-meta {
   float: none;
   margin-left: 0px;
+  line-height: 88px;
   text-align: center;
   background-image: linear-gradient(90deg, #f79533 0%, #f37055 15%, #ef4e7b 30%, #a166ab 44%, #5073b8 58%, #1098ad 72%, #07b39b 86%, #6dba82 100%);
 }
@@ -3105,14 +3107,14 @@ body {
   letter-spacing: 1px;
   padding-bottom: 3px;
   font-weight: bold;
-  color: #fff;
+  color: #ccc;
   border-bottom-width: 3px;
   border-bottom-style: solid;
   border-bottom-color: #a166ab;
 }
 .menu {
   text-align: center;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-bottom: 0px;
   padding: 5px;
   background-color: rgba(255,255,255,0.75);
@@ -3144,6 +3146,9 @@ body {
 }
 .posts-expand {
   padding-top: 80px;
+}
+.posts-expand .post-meta time {
+  border-bottom: none;
 }
 .posts-expand .post-meta {
   margin: 5px 0px 0px 0px;
@@ -3233,15 +3238,14 @@ body {
   color: #a166ab;
   border-bottom: none;
 }
+.posts-expand .post-tags {
+  text-align: center;
+}
 .posts-expand .post-tags a {
-  border-bottom: none;
-  margin-right: 0px;
-  font-size: 13px;
-  padding: 0px 5px;
-  border-radius: 3px;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
-  transition-delay: 0s;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  font-family: 'Comic Sans MS', sans-serif;
+  transition: 0.2s ease-out;
 }
 .posts-expand .post-tags a:hover {
   background: #eee;
@@ -3406,6 +3410,7 @@ img:hover {
   border-radius: 15px;
 }
 .feed-link a:hover {
+  color: #fff !important;
   background-color: #a166ab;
 }
 .feed-link a i {
