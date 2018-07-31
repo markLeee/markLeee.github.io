@@ -2063,7 +2063,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #38ffe2;
+  background: #a722aa;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3385,6 +3385,12 @@ pre .deletion {
 .sidebar {
   box-shadow: inset 0px 0px 10px 0px rgba(0,0,0,0.5);
   background-color: rgba(0,0,0,0.55);
+}
+.sidebar-music {
+  width: 76%;
+  position: absolute;
+  top: 526px;
+  left: 36px;
 }
 .sidebar-inner {
   margin-top: 30px;
