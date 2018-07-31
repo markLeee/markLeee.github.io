@@ -2063,7 +2063,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #0061ff;
+  background: #0d5305;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3172,6 +3172,11 @@ body {
 .posts-expand .post-meta time {
   border-bottom: none;
 }
+.post_categories_link {
+  font-size: 14px;
+  font-family: 'Comic Sans MS';
+  border-bottom: none;
+}
 .posts-expand .post-meta {
   margin: 5px 0px 0px 0px;
 }
@@ -3278,12 +3283,18 @@ body {
 }
 .posts-expand .post-tags a {
   font-size: 14px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 3px 3px rgba(0,0,0,0.12), 0 1px 3px rgba(0,0,0,0.24);
   font-family: 'Comic Sans MS', sans-serif;
-  transition: 0.2s ease-out;
+  border-radius: 4px;
+  transition: all 0.25s ease-out;
 }
 .posts-expand .post-tags a:hover {
-  background: #eee;
+  box-shadow: 0 10px 20px 0 rgba(168,182,191,0.6);
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  -o-transform: translateY(-1px);
+  transform: translateY(-1px);
 }
 .post-widgets {
   padding-top: 0px;
@@ -3633,11 +3644,13 @@ img#github-emoji {
   cursor: text;
   box-shadow: none;
 }
-.post-body p a {
+.post-body li a {
+  font-size: 16px;
+  font-family: 'Comic Sans MS';
   color: #5073b8;
   border-bottom: none;
 }
-.post-body p a:hover {
+.post-body li a:hover {
   color: #a166ab;
   border-bottom: none;
 }
