@@ -2,6 +2,7 @@
 title: git简单操作
 date: 2018-06-01 16:35:01
 tags: git
+categories: git
 ---
 
 ### 命令行窗口
