@@ -1,6 +1,11 @@
 // Custom styles.
+//背景图片相关
 body {
-    background: url(../../uploads/ae86.jpg)no-repeat fixed;
+    background-image:url(/uploads/ae86.jpg);
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:50% 50%;
+    background-size: cover
 }
 // 顶部github图标样式
 .github-link {
@@ -119,8 +124,8 @@ body {
 .logo-line-after {
     display: none;
 }
-.main {
-    margin-top: -80px;
+.main-inner{
+    margin-top: 0px;
 }
 // 文章
 .post {
@@ -269,13 +274,15 @@ body {
     box-shadow: 0 10px 20px 0 rgba(168,182,191,0.6);
     transform: translateY(-1px);
 }
-// 文章底部留白更改
+// 底部分享小组件
 .post-widgets {
     margin-top: 0px;
     padding-top: 0px;
 }
+// 底部导航栏
 .post-nav {
     margin-top: 30px;
+    border-top: 1px solid #e3e3e3;
 }
 // 文章底部页面跳转
 .post-nav-item a {
