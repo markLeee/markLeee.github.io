@@ -222,15 +222,44 @@ body {
 }
 // gitalk评论样式
 #gitalk-container {
-    background-color: rgba(255, 255, 255, 0.55);
-    color: #333;
+    background-color: rgba(255, 255, 255, 0.65);
+    color: rgb(161, 102, 171);
+    font-family: 'Comic Sans MS', sans-serif;
     box-shadow: 0px -10px 10px 0px rgba(0, 0, 0, 0.15);
 }
+// 默认github头像
+.gt-container .gt-avatar-github {
+    margin-left: 5px;
+}
+// 说点什么
+.gt-container .gt-header-comment {
+    margin-right: 5px;
+}
+// 用户头像
+.gt-container .gt-avatar {
+    margin-left: 5px;
+}
+// 用户评论
+.gt-container .gt-comment-content {
+    margin-right: 5px;    
+}
+// 评论和未登录用户
+.gt-container .gt-meta {
+    font-size: 14px !important;
+    padding: 6px 0 !important;   
+}
+// 评论数
+.gt-counts {
+    margin-left: 20px !important;
+}
+.gt-container .gt-link {
+    border-bottom: none !important;    
+}
 .gt-header a, .gt-comments a, .gt-popup a {
-  border-bottom: none;
+    border-bottom: none;
 }
 .gt-container .gt-popup .gt-action.is--active:before {
-  top: 0.7em;
+    top: 0.7em;
 }
 // 页面底部页脚
 .footer {
