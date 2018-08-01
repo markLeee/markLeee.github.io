@@ -39,3 +39,20 @@ categories: git
 🔧 (扳手)|:`wrench`:|修改配置文件
 🌐 (地球)|:`globe_with_meridians`:| 国际化与本地化
 ✏️ (铅笔)|:`pencil2`:|修复 typo
+<!-- 
+{% aplayerlist %}
+{
+    "autoplay": true,
+    "showlrc": 0,
+    "mutex": true,
+    "music": [
+        {
+            "title": "에필로그 (Epilogue)",
+            "author": "이동준",
+            "url": "https://molier-1256056152.cos.ap-guangzhou.myqcloud.com/%E1%84%8B%E1%85%A6%E1%84%91%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3.mp3",
+            "pic": "https://y.gtimg.cn/music/photo_new/T002R300x300M000000RmZHf3qhLUL.jpg?max_age=2592000",
+            "lrc": "https://歌词.lrc"
+        }
+    ]
+}
+{% endaplayerlist %} -->
