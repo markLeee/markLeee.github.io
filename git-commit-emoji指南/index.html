@@ -182,7 +182,7 @@
 <meta property="og:site_name" content="MarkLees&#39;Blog">
 <meta property="og:description" content="git commint时添加表情   emoji emoji代码 commit说明     🎨 (调色板) :art: 改进代码结构/代码格式   ⚡️ (闪电) :zap: 提升性能   🐎 (赛马) :racehorse: 提升性能   🔥 (火焰) :fire: 移除代码或文件   🐛 (bug) :bug: 修复 bug   🚑 (急救车) :ambulance: 重要补丁">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-01T01:49:13.277Z">
+<meta property="og:updated_time" content="2018-08-01T09:39:37.954Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git-commit-emoji指南">
 <meta name="twitter:description" content="git commint时添加表情   emoji emoji代码 commit说明     🎨 (调色板) :art: 改进代码结构/代码格式   ⚡️ (闪电) :zap: 提升性能   🐎 (赛马) :racehorse: 提升性能   🔥 (火焰) :fire: 移除代码或文件   🐛 (bug) :bug: 修复 bug   🚑 (急救车) :ambulance: 重要补丁">
@@ -242,6 +242,8 @@
   </style>
 </noscript>
 
+<link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
@@ -710,7 +712,16 @@
 </tr>
 </tbody>
 </table>
+<!-- 
 
+        <div id="aplayer-ryegxQgd" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>
+			  <script>
+				  var options = {"narrow":false,"autoplay":true,"showlrc":0,"mutex":true,"music":[{"title":"에필로그 (Epilogue)","author":"이동준","url":"https://molier-1256056152.cos.ap-guangzhou.myqcloud.com/%E1%84%8B%E1%85%A6%E1%84%91%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3.mp3","pic":"https://y.gtimg.cn/music/photo_new/T002R300x300M000000RmZHf3qhLUL.jpg?max_age=2592000","lrc":"https://歌词.lrc"}]};
+				  options.element = document.getElementById("aplayer-ryegxQgd");
+				  var ap = new APlayer(options);
+			    window.aplayers || (window.aplayers = []);
+				  window.aplayers.push(ap);
+			  </script> –&gt;-->
       
     </div>
 
@@ -1024,32 +1035,64 @@
             
           
           <div id="days"></div>
-<script>
-function show_date_time(){
-window.setTimeout("show_date_time()", 1000);
-BirthDay=new Date("11/11/2017 15:13:14");
-today=new Date();
-timeold=(today.getTime()-BirthDay.getTime());
-sectimeold=timeold/1000
-secondsold=Math.floor(sectimeold);
-msPerDay=24*60*60*1000
-e_daysold=timeold/msPerDay
-daysold=Math.floor(e_daysold);
-e_hrsold=(e_daysold-daysold)*24;
-hrsold=setzero(Math.floor(e_hrsold));
-e_minsold=(e_hrsold-hrsold)*60;
-minsold=setzero(Math.floor((e_hrsold-hrsold)*60));
-seconds=setzero(Math.floor((e_minsold-minsold)*60));
-document.getElementById('days').innerHTML="已运行"+daysold+"天"+hrsold+"小时"+minsold+"分"+seconds+"秒";
-}
-function setzero(i){
-if (i<10)
-{i="0" + i};
-return i;
-}
-show_date_time();
+  <script>
+    function show_date_time() {
+      window.setTimeout("show_date_time()", 1000);
+      BirthDay = new Date("11/11/2017 15:13:14");
+      today = new Date();
+      timeold = (today.getTime() - BirthDay.getTime());
+      sectimeold = timeold / 1000
+      secondsold = Math.floor(sectimeold);
+      msPerDay = 24 * 60 * 60 * 1000
+      e_daysold = timeold / msPerDay
+      daysold = Math.floor(e_daysold);
+      e_hrsold = (e_daysold - daysold) * 24;
+      hrsold = setzero(Math.floor(e_hrsold));
+      e_minsold = (e_hrsold - hrsold) * 60;
+      minsold = setzero(Math.floor((e_hrsold - hrsold) * 60));
+      seconds = setzero(Math.floor((e_minsold - minsold) * 60));
+      document.getElementById('days').innerHTML = "已运行" + daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+    }
+    function setzero(i) {
+      if (i < 10) {
+        i = "0" + i
+      };
+      return i;
+    }
+    show_date_time();
+  </script>
+  
+ <div id="player1" class="aplayer"></div>
+ <script src="/js/src/APlayer.min.js"></script>
+ <script type="text/javascript">
+// var ap = new APlayer({
+//     element: document.getElementById('player1'),                       // Optional, player element
+//     narrow: false,                                                     // Optional, narrow style
+//     autoplay: false,                                                    // Optional, autoplay song(s), not supported by mobile browsers
+//     showlrc: 0,                                                        // Optional, show lrc, can be 0, 1, 2, see: ###With lrc
+//     mutex: true,                                                       // Optional, pause other players when this player playing
+//     theme: '#e6d0b2',                                                  // Optional, theme color, default: #b7daff
+//     mode: 'random',                                                    // Optional, play mode, can be `random` `single` `circulation`(loop) `order`(no loop), default: `circulation`
+//     preload: 'metadata',                                               // Optional, the way to load music, can be 'none' 'metadata' 'auto', default: 'auto'
+//     listmaxheight: '513px',                                             // Optional, max height of play list
+//     music: [
+//     {                                                           // Required, music info, see: ###With playlist
+//         title: 'Sometimes When We Touch',                                          // Required, music title
+//         author: 'Oliveia',                                              // Required, music author
+//         url: 'https://molier-1256056152.cos.ap-guangzhou.myqcloud.com/SometimesWhenWeTouch.mp3',  // Required, music url
+//         pic: 'https://y.gtimg.cn/music/photo_new/T002R300x300M000003LIDEL0NQInJ.jpg?max_age=2592000',  // Optional, music picture
+//         lrc: 'https://歌词.lrc'                   // Optional, lrc, see: ###With lrc
+//     },
+//     {
+//         title: "大鱼",
+//         author: "周深",
+//         url: "https://molier-1256056152.cos.ap-guangzhou.myqcloud.com/bigfish.mp3",
+//         pic: "https://y.gtimg.cn/music/photo_new/T002R300x300M000004Y7V4s3ug4cC.jpg?max_age=2592000",
+//         lrc: "https://歌词.lrc"
+//     }
+//     ]
+// });
 </script>
-
         </div>
       </section>
 
