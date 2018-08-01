@@ -2063,7 +2063,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffbeb4;
+  background: #571f63;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3055,7 +3055,11 @@ hr {
   }
 }
 body {
-  background: url("../../uploads/ae86.jpg") no-repeat fixed;
+  background-image: url("/uploads/ae86.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
 }
 .github-link {
   position: absolute;
@@ -3155,8 +3159,8 @@ body {
 .logo-line-after {
   display: none;
 }
-.main {
-  margin-top: -80px;
+.main-inner {
+  margin-top: 0px;
 }
 .post {
   margin-top: 60px;
@@ -3302,6 +3306,7 @@ body {
 }
 .post-nav {
   margin-top: 30px;
+  border-top: 1px solid #e3e3e3;
 }
 .post-nav-item a {
   color: #5073b8;
