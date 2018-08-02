@@ -2063,7 +2063,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ace0fb;
+  background: #c1dbb8;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3611,9 +3611,24 @@ img:hover {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
   background-color: #fff;
   padding: 86px 36px 36px 36px;
+  font-family: 'Comic Sans MS', sans-serif;
 }
 .tag-cloud-title {
-  margin-bottom: 15px;
+  color: #07b39b;
+}
+.tag-cloud a {
+  color: #ef4e7b !important;
+  border-bottom: none;
+  border-radius: 4px;
+  transition: all 0.25s ease-out;
+}
+.tag-cloud a:hover {
+  box-shadow: 0 10px 20px 0 rgba(168,182,191,0.6);
+  -webkit-transform: translateY(-1px);
+  -moz-transform: translateY(-1px);
+  -ms-transform: translateY(-1px);
+  -o-transform: translateY(-1px);
+  transform: translateY(-1px);
 }
 #top {
   display: block;
@@ -3705,14 +3720,6 @@ img#github-emoji {
 .post-body li a:hover {
   color: #a166ab;
   border-bottom: none;
-}
-.tag-cloud a {
-  border-bottom: 1px solid #5073b8;
-  text-decoration: none;
-}
-.tag-cloud a:hover {
-  border-bottom: 1px solid #a166ab;
-  text-decoration: none;
 }
 a.categories {
   color: #5073b8;

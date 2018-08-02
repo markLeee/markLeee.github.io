@@ -182,7 +182,7 @@
 <meta property="og:site_name" content="MarkLees&#39;Blog">
 <meta property="og:description" content="命令行窗口 我们平时使用计算机都是通过可视化的界面来对电脑发送命令 鼠标右键-&amp;gt;新建-&amp;gt;新建文件夹   命令行窗口也是一种可以向计算机发送命令的途径 通过命令的形式告诉计算机我们要做什么 mkdir 文件夹的名字   开启命令行 win + R -&amp;gt; cmd -&amp;gt; enter   常用命令行工具 cmd powershell git bash">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-02T06:16:35.213Z">
+<meta property="og:updated_time" content="2018-08-02T07:45:38.744Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="git简单操作">
 <meta name="twitter:description" content="命令行窗口 我们平时使用计算机都是通过可视化的界面来对电脑发送命令 鼠标右键-&amp;gt;新建-&amp;gt;新建文件夹   命令行窗口也是一种可以向计算机发送命令的途径 通过命令的形式告诉计算机我们要做什么 mkdir 文件夹的名字   开启命令行 win + R -&amp;gt; cmd -&amp;gt; enter   常用命令行工具 cmd powershell git bash">
@@ -510,7 +510,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">2.6k</span>
+                <span title="本文字数">2.9k</span>
               
 
               
@@ -524,7 +524,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长">2 分钟</span>
+                <span title="阅读时长">3 分钟</span>
               
             </div>
           
@@ -633,7 +633,7 @@
 <li>git init</li>
 </ul>
 </li>
-<li>查看当前仓库的状态 <ul>
+<li>查看当前仓库的状态<ul>
 <li>git status</li>
 </ul>
 </li>
@@ -642,15 +642,15 @@
 </ul>
 </li>
 <li>将暂存区中的代码提交到本地仓库 形成一个版本<ul>
-<li>git commit -m 备注 </li>
+<li>git commit -m 备注</li>
 </ul>
 </li>
 <li>查看本地仓库中的历史提交版本<ul>
-<li>git log </li>
+<li>git log</li>
 </ul>
 </li>
 <li>将暂存区中的文件恢复到工作目录<ul>
-<li>git rm –cached 文件列表 </li>
+<li>git rm –cached 文件列表</li>
 <li>说明:<ul>
 <li>必须保证工作目录中的代码和暂存区中的代码一致</li>
 <li>此时工作目录中有此文件 暂存区中没有此文件 这个文件不被git管理</li>
@@ -667,8 +667,12 @@
 <li>git reset –hard commitID</li>
 </ul>
 </li>
-<li>查看分支<ul>
+<li>查看本地分支<ul>
 <li>git branch</li>
+</ul>
+</li>
+<li>查看所有分支和远程分支<ul>
+<li>git branch -a | git branch -r  </li>
 </ul>
 </li>
 <li>创建分支<ul>
@@ -680,7 +684,11 @@
 </ul>
 </li>
 <li>创建并切换分支<ul>
-<li>git checkout -b 分支名称 </li>
+<li>git checkout -b 分支名称</li>
+</ul>
+</li>
+<li>创建、切换分支并从指定远程分支拉下代码<ul>
+<li>git checkout -b 分支名称 origin/指定的远程分支名称</li>
 </ul>
 </li>
 <li>删除分支(如果分支没有被合并不允许删除)<ul>
@@ -696,7 +704,7 @@
 </ul>
 </li>
 <li>初始化一个裸露仓库(公共代码仓库)<ul>
-<li>git init –bare </li>
+<li>git init –bare</li>
 </ul>
 </li>
 <li>向远程仓库推送代码<ul>
@@ -716,11 +724,11 @@
 </ul>
 </li>
 <li>查看当前别名所对应的远程仓库地址<ul>
-<li>git remote show 别名 </li>
+<li>git remote show 别名</li>
 </ul>
 </li>
 <li>删除当前别名及所对应的远程仓库地址<ul>
-<li>git remote remove 别名 </li>
+<li>git remote remove 别名</li>
 </ul>
 </li>
 <li>从远程仓库获取代码(拉取所有版本到本地)<ul>
@@ -747,6 +755,14 @@
 <li>ssh-keygen</li>
 </ul>
 </li>
+<li><strong><code>gitk</code></strong> 可视画图形界面<ul>
+<li>可查看代码修改记录,提交作者,日期等等信息.. 很方便,我经常用的命令之一</li>
+<li>初次打开文件中有中文(注释之类的),会显示乱码,使用该命令(utf-8)设置全局中文<ul>
+<li><strong><code>git config --global gui.encoding utf-8</code></strong></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <h3 id="git使用流程"><a href="#git使用流程" class="headerlink" title="git使用流程"></a>git使用流程</h3><ul>
 <li>1.配置账户信息<ul>
@@ -768,12 +784,13 @@
 <li>git add . 添加工作目录中所有的文件到暂存区</li>
 </ul>
 </li>
-<li><ol>
-<li>将暂存区中的代码提交到本地仓库</li>
-</ol>
-<ul>
+<li>5.将暂存区中的代码提交到本地仓库<ul>
 <li>git commit -m 备注</li>
 <li>git commit -m “first commit”</li>
+</ul>
+</li>
+<li>6.将本地仓库(分支)代码提交到远程仓库(分支)<ul>
+<li>git push origin master:master</li>
 </ul>
 </li>
 </ul>
