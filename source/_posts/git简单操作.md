@@ -17,7 +17,8 @@ categories: git
     + cmd
     + powershell
     + git bash
-
+  
+<!--more-->
 ### 常用命令
 - pwd (print working directory) 查看当前所在的目录
 - cd (change directory) 切换目录
@@ -147,3 +148,4 @@ categories: git
 ### git 忽略清单
 - .gitignore文件
 
+##### [git教程中文版](http://iissnan.com/progit/)

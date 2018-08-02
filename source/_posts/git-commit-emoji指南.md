@@ -6,6 +6,15 @@ categories: git
 ---
 
 ### git commint时添加表情
+- 执行 git commit 时使用 emoji 为本次提交打上一个 "标签", 使得此次 commit 的主要工作得以凸现，也能够使得其在整个提交历史中易于区分与查找。
+- git commit 时，提交信息遵循以下格式：
+  + :emoji1: :emoji2: 不超过 50 个字的摘要，首字母大写，使用祈使语气，句末不要加句号
+  + 提交信息的主体
+  + 引用相关 issue 或 PR 编号 <#110>
+- 初次提交示例：
+  + `git commit -m ":`tada`: Initialize Repo"`
+  
+<!--more-->
   emoji  |   emoji代码   |    commit说明
 :-------:|:-------------:|:--------------:
 🎨 (调色板)|:`art`:| 改进代码结构/代码格式
@@ -39,6 +48,8 @@ categories: git
 🔧 (扳手)|:`wrench`:|修改配置文件
 🌐 (地球)|:`globe_with_meridians`:| 国际化与本地化
 ✏️ (铅笔)|:`pencil2`:|修复 typo
+
+##### 参考：官方源码[github/gemoji](https://github.com/github/gemoji)国际友人的网站[gitmoji](https://gitmoji.carloscuesta.me/)
 <!-- 
 {% aplayerlist %}
 {

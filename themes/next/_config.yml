@@ -317,7 +317,7 @@ excerpt_description: false
 # 建议在文章中加入 <!-- more -->
 # 自定义 [Read More] 按钮之前要显示的内容！
 auto_excerpt:
-  enable: true
+  enable: false
   length: 176
 
 # Post meta display settings
