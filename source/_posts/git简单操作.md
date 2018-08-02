@@ -1,7 +1,10 @@
 ---
 title: git简单操作
 date: 2017-06-01 16:35:01
-tags: git
+tags: 
+    - git
+    - git教程
+    - git命令
 categories: git
 ---
 
@@ -146,6 +149,14 @@ categories: git
     + git commit -m "first commit"
 
 ### git 忽略清单
-- .gitignore文件
-
-##### [git教程中文版](http://iissnan.com/progit/)
+- .gitignore文件,如我hexo'blog源码过滤文件：
+    + .DS_Store
+    + Thumbs.db
+    + db.json
+    + *.log
+    + node_modules/
+    + public/
+    + .deploy*/
+    + package-lock.json
+  
+### [git教程中文版](http://iissnan.com/progit/)

@@ -1,7 +1,10 @@
 ---
 title: git-commit-emoji指南
 date: 2017-06-02 14:36:35
-tags: git
+tags:
+    - git
+    - git表情
+    - emoji
 categories: git
 ---
 
@@ -49,7 +52,7 @@ categories: git
 🌐 (地球)|:`globe_with_meridians`:| 国际化与本地化
 ✏️ (铅笔)|:`pencil2`:|修复 typo
 
-##### 参考：官方源码[github/gemoji](https://github.com/github/gemoji)国际友人的网站[gitmoji](https://gitmoji.carloscuesta.me/)
+### 参考：官方源码[github/gemoji](https://github.com/github/gemoji)国际友人的网站[gitmoji](https://gitmoji.carloscuesta.me/)
 <!-- 
 {% aplayerlist %}
 {
