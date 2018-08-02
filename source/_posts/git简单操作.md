@@ -69,16 +69,16 @@ categories: git
     + git config --list
 - 初始化git仓库
     + git init
-- 查看当前仓库的状态 
+- 查看当前仓库的状态
     + git status
 - 将工作目录中的文件添加到暂存区
     + git add
 - 将暂存区中的代码提交到本地仓库 形成一个版本
-    + git commit -m 备注 
+    + git commit -m 备注
 - 查看本地仓库中的历史提交版本
-    + git log 
+    + git log
 - 将暂存区中的文件恢复到工作目录
-    + git rm --cached 文件列表 
+    + git rm --cached 文件列表
     + 说明:
         * 必须保证工作目录中的代码和暂存区中的代码一致
         * 此时工作目录中有此文件 暂存区中没有此文件 这个文件不被git管理
@@ -87,14 +87,18 @@ categories: git
     + 说明：暂存区和工作目录都有此文件 这个文件依然被git管理
 - 回滚到本地仓库中的特定版本并覆盖暂存区和工作目录
     + git reset --hard commitID
-- 查看分支
+- 查看本地分支
     + git branch
+- 查看所有分支和远程分支
+    + git branch -a | git branch -r  
 - 创建分支
     + git branch 分支名称
 - 切换分支
     + git checkout 分支名称
 - 创建并切换分支
-    + git checkout -b 分支名称 
+    + git checkout -b 分支名称
+- 创建、切换分支并从指定远程分支拉下代码
+    + git checkout -b 分支名称 origin/指定的远程分支名称
 - 删除分支(如果分支没有被合并不允许删除)
     + git branch -d 分支名称
 - 删除分支(强制删除分支)
@@ -102,7 +106,7 @@ categories: git
 - 合并分支
     + git merge 来源分支
 - 初始化一个裸露仓库(公共代码仓库)
-    + git init --bare 
+    + git init --bare
 - 向远程仓库推送代码
     + git push 远程仓库地址 本地分支名称:远程分支名称
 - 从远程仓库中拉取代码(拉取最新版本到本地 开发过程中使用)
@@ -112,9 +116,9 @@ categories: git
 - 查看远程地址的详情信息
     + git remote -v
 - 查看当前别名所对应的远程仓库地址
-    + git remote show 别名 
+    + git remote show 别名
 - 删除当前别名及所对应的远程仓库地址
-    + git remote remove 别名 
+    + git remote remove 别名
 - 从远程仓库获取代码(拉取所有版本到本地)
     + git clone 远程仓库地址 项目名称
     + 使用场景：加入到已有项目的开发中 需要先拉取所有版本到本地 再进行开发
@@ -131,6 +135,10 @@ categories: git
         * 李四解决冲突并再次提交代码到远程仓库
 - 多人协作开发免登录操作
     + ssh-keygen
+- **`gitk`** 可视画图形界面
+    + 可查看代码修改记录,提交作者,日期等等信息.. 很方便,我经常用的命令之一
+    + 初次打开文件中有中文(注释之类的),会显示乱码,使用该命令(utf-8)设置全局中文
+        * **`git config --global gui.encoding utf-8`**
 
 ### git使用流程
 -   1.配置账户信息
@@ -144,9 +152,11 @@ categories: git
 -   4.将工作目录中的文件提交到暂存区
     + git add 文件列表
     + git add . 添加工作目录中所有的文件到暂存区
--   1. 将暂存区中的代码提交到本地仓库
+-   5.将暂存区中的代码提交到本地仓库
     + git commit -m 备注
     + git commit -m "first commit"
+-   6.将本地仓库(分支)代码提交到远程仓库(分支)
+    + git push origin master:master
 
 ### git 忽略清单
 - .gitignore文件,如我hexo'blog源码过滤文件：

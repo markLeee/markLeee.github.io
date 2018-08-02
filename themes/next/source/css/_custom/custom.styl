@@ -624,9 +624,22 @@ img:hover {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     background-color: rgb(255, 255, 255);
     padding: 86px 36px 36px 36px;
+    font-family: 'Comic Sans MS', sans-serif;
 }
+// 标签云页面title
 .tag-cloud-title {
-    margin-bottom: 15px;
+    color: #07b39b;
+}
+// 标签云页面超链接样式
+.tag-cloud a {
+    color: #ef4e7b !important;
+    border-bottom: none;
+    border-radius: 4px;
+    transition: all .25s ease-out;
+}
+.tag-cloud a:hover {
+    box-shadow: 0 10px 20px 0 rgba(168,182,191,0.6);
+    transform: translateY(-1px);
 }
 // 自定义的TopX页面样式
 #top {
@@ -726,15 +739,6 @@ img#github-emoji {
         color: rgb(161, 102, 171);
         border-bottom: none;
     }
-}
-// 标签云页面超链接样式（为emoji特设）
-.tag-cloud a {
-    border-bottom: 1px solid rgb(80, 115, 184);
-    text-decoration: none;
-}
-.tag-cloud a:hover {
-    border-bottom: 1px solid rgb(161, 102, 171);
-    text-decoration: none;
 }
 // 文章元数据中categories的样式（为emoji特设）
 a.categories {
