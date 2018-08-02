@@ -2063,7 +2063,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #78f99d;
+  background: #b025ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3370,6 +3370,14 @@ h6 {
   border-left: 4px solid #a166ab;
   margin-left: -26px;
   padding-left: 22px;
+}
+.post-body h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  font-family: 'Comic Sans MS', sans-serif;
+  border-bottom: none;
 }
 .posts-expand .post-body img {
   border: none;
