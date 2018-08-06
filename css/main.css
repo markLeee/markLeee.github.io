@@ -2063,7 +2063,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #c1dbb8;
+  background: #2ef2ff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3557,13 +3557,11 @@ img:hover {
 .post-toc ol {
   padding: 0px 10px 5px 10px;
 }
-.posts-collapse {
-  margin: 50px 0px;
+.post-block.archive {
+  font-family: 'Comic Sans MS', sans-serif;
 }
-@media (max-width: 1023px) {
-  .posts-collapse {
-    margin: 50px 20px;
-  }
+.posts-collapse {
+  margin: 80px 0 50px 0px;
 }
 .posts-collapse::after {
   margin-left: -2px;
@@ -3605,6 +3603,10 @@ img:hover {
   box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
   background-color: #fff;
   padding: 86px 36px 36px 36px;
+  font-family: 'Comic Sans MS', sans-serif;
+}
+.category-all-title {
+  color: #07b39b;
 }
 .tag-cloud {
   margin: -80px 50px 40px 50px;
