@@ -1,14 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>404-page</title>
-    <link rel="shortcut icon" href="uploads/hashiqi.ico" type="image/x-icon">
+  <title>404 Page not found | markLee</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
+  <meta http-equiv="Cache-Control" content="no-transform">
+  <meta http-equiv="Cache-Control" content="no-siteapp">
+  <meta name="keywords" content="markLee,前端,Hexo,博客,next">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/hashiqi.ico">
+  <link rel="canonical" href="https://www.marklee.top/404.html">
+  <link href="https://fonts.cat.net/css?family=Lato:300,300italic,400,400italic,700,700italic&amp;subset=latin,latin-ext" rel="stylesheet">
+  <script>
+    function gtag() {
+      dataLayer.push(arguments)
+    }
+    window.dataLayer = window.dataLayer || [], gtag("js", new Date), gtag("config", "UA-100434861-1")
+  </script>
+  <style>
+    body {
+      margin: 0;
+      background: rgba(255, 255, 255, 0);
+      font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif
+    }
+
+    video {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translateX(-50%) translateY(-50%);
+      background: url(https://yixiuer.oss-cn-shanghai.aliyuncs.com/images/404bg.png) no-repeat;
+      background-size: cover
+    }
+
+    h1 {
+      font-size: 3rem;
+      text-transform: uppercase;
+      letter-spacing: .3rem;
+      text-align: center;
+      top: 15%;
+      left: 5%;
+      right: 5%;
+      position: absolute
+    }
+
+    .footer {
+      font-size: 2rem;
+      position: absolute;
+      bottom: 15%;
+      left: 10%;
+      right: 10%;
+      text-align: center
+    }
+
+    a {
+      color: #5073b8;
+      text-decoration: underline
+    }
+
+    a:hover {
+      color: #a166ab;
+      text-decoration: underline;
+      cursor: pointer
+    }
+
+    @media only screen and (max-device-width:1024px) {
+      html {
+        background: url(https://yixiuer.oss-cn-shanghai.aliyuncs.com/images/404bg.png) no-repeat rgba(255, 255, 255, 0);
+        background-size: 100% 100%
+      }
+      #bgvid {
+        display: none
+      }
+    }
+
+  </style>
 </head>
 <body>
-    <script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" charset="utf-8" 
-     homePageUrl="product.php" homePageName="返回"></script>
+  <!-- <video poster="https://yixiuer.oss-cn-shanghai.aliyuncs.com/images/404bg.png" id="bgvid" playsinline="" autoplay muted loop>
+    <source src="https://yixiuer.oss-cn-shanghai.aliyuncs.com/videos/404bg.webm" type="video/webm">
+    <source src="https://yixiuer.oss-cn-shanghai.aliyuncs.com/videos/404bg.mp4" type="video/mp4">
+  </video> -->
+  <h1>404 Page not found.</h1>
+  <div class="footer">
+    <a href="https://www.marklee.top/">送我回主页</a>
+  </div>
+  <script src="js/src/love.js"></script>
 </body>
 </html>
