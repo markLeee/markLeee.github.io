@@ -1,44 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[git-commit-emoji指南]]></title>
-    <url>%2Fgit-commit-emoji%E6%8C%87%E5%8D%97%2F</url>
-    <content type="text"><![CDATA[git commint时添加表情 执行 git commit 时使用 emoji 为本次提交打上一个 “标签”, 使得此次 commit 的主要工作得以凸现，也能够使得其在整个提交历史中易于区分与查找。 git commit 时，提交信息遵循以下格式： :emoji1: :emoji2: 不超过 50 个字的摘要，首字母大写，使用祈使语气，句末不要加句号 提交信息的主体 引用相关 issue 或 PR 编号 &lt;#110&gt; 初次提交示例： git commit -m &quot;:tada: Initialize Repo&quot; emoji emoji代码 commit说明 🎨 (调色板) :art: 改进代码结构/代码格式 ⚡️ (闪电) :zap: 提升性能 🐎 (赛马) :racehorse: 提升性能 🔥 (火焰) :fire: 移除代码或文件 🐛 (bug) :bug: 修复 bug 🚑 (急救车) :ambulance: 重要补丁 ✨ (火花) :sparkles: 引入新功能 📝 (铅笔) :pencil: 撰写文档 🚀 (火箭) :rocket: 部署功能 💄 (口红) :lipstick: 更新 UI 和样式文件 🎉 (庆祝) :tada: 初次提交 ✅ (白色复选框) :white_check_mark: 增加测试 🔒 (锁) :lock: 修复安全问题 🍎 (苹果) :apple: 修复 macOS 下的问题 🐧 (企鹅) :penguin: 修复 Linux 下的问题 🏁 (旗帜) :checked_flag: 修复 Windows 下的问题 🔖 (书签) :bookmark: 发行/版本标签 🚨 (警车灯) :rotating_light: 移除 linter 警告 🚧 (施工) :construction: 工作进行中 💚 (绿心) :green_heart: 修复 CI 构建问题 ⬇️ (下降箭头) :arrow_down: 降级依赖 ⬆️ (上升箭头) :arrow_up: 升级依赖 👷 (工人) :construction_worker: 添加 CI 构建系统 📈 (上升趋势图) :chart_with_upwards_trend: 添加分析或跟踪代码 🔨 (锤子) :hammer: 重大重构 ➖ (减号) :heavy_minus_sign: 减少一个依赖 🐳 (鲸鱼) :whale: Docker 相关工作 ➕ (加号) :heavy_plus_sign: 增加一个依赖 🔧 (扳手) :wrench: 修改配置文件 🌐 (地球) :globe_with_meridians: 国际化与本地化 ✏️ (铅笔) :pencil2: 修复 typo 参考：官方源码github/gemoji国际友人的网站gitmoji]]></content>
+<search> 
+  
+    
+    <entry>
+      <title>git-commit-emoji指南</title>
+      <link href="/git-commit-emoji%E6%8C%87%E5%8D%97/"/>
+      <url>/git-commit-emoji%E6%8C%87%E5%8D%97/</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="git-commint时添加表情"><a href="#git-commint时添加表情" class="headerlink" title="git commint时添加表情"></a>git commint时添加表情</h3><ul><li>执行 git commit 时使用 emoji 为本次提交打上一个 “标签”, 使得此次 commit 的主要工作得以凸现，也能够使得其在整个提交历史中易于区分与查找。</li><li>git commit 时，提交信息遵循以下格式：<ul><li>:emoji1: :emoji2: 不超过 50 个字的摘要，首字母大写，使用祈使语气，句末不要加句号</li><li>提交信息的主体</li><li>引用相关 issue 或 PR 编号 &lt;#110&gt;</li></ul></li><li>初次提交示例：<ul><li><code>git commit -m &quot;:</code>tada<code>: Initialize Repo&quot;</code></li></ul></li></ul><a id="more"></a><table><thead><tr><th style="text-align:center">emoji</th><th style="text-align:center">emoji代码</th><th style="text-align:center">commit说明</th></tr></thead><tbody><tr><td style="text-align:center">🎨 (调色板)</td><td style="text-align:center">:<code>art</code>:</td><td style="text-align:center">改进代码结构/代码格式</td></tr><tr><td style="text-align:center">⚡️ (闪电)</td><td style="text-align:center">:<code>zap</code>:</td><td style="text-align:center">提升性能</td></tr><tr><td style="text-align:center">🐎 (赛马)</td><td style="text-align:center">:<code>racehorse</code>:</td><td style="text-align:center">提升性能</td></tr><tr><td style="text-align:center">🔥 (火焰)</td><td style="text-align:center">:<code>fire</code>:</td><td style="text-align:center">移除代码或文件</td></tr><tr><td style="text-align:center">🐛 (bug)</td><td style="text-align:center">:<code>bug</code>:</td><td style="text-align:center">修复 bug</td></tr><tr><td style="text-align:center">🚑 (急救车)</td><td style="text-align:center">:<code>ambulance</code>:</td><td style="text-align:center">重要补丁</td></tr><tr><td style="text-align:center">✨ (火花)</td><td style="text-align:center">:<code>sparkles</code>:</td><td style="text-align:center">引入新功能</td></tr><tr><td style="text-align:center">📝 (铅笔)</td><td style="text-align:center">:<code>pencil</code>:</td><td style="text-align:center">撰写文档</td></tr><tr><td style="text-align:center">🚀 (火箭)</td><td style="text-align:center">:<code>rocket</code>:</td><td style="text-align:center">部署功能</td></tr><tr><td style="text-align:center">💄 (口红)</td><td style="text-align:center">:<code>lipstick</code>:</td><td style="text-align:center">更新 UI 和样式文件</td></tr><tr><td style="text-align:center">🎉 (庆祝)</td><td style="text-align:center">:<code>tada</code>:</td><td style="text-align:center">初次提交</td></tr><tr><td style="text-align:center">✅ (白色复选框)</td><td style="text-align:center">:<code>white_check_mark</code>:</td><td style="text-align:center">增加测试</td></tr><tr><td style="text-align:center">🔒 (锁)</td><td style="text-align:center">:<code>lock</code>:</td><td style="text-align:center">修复安全问题</td></tr><tr><td style="text-align:center">🍎 (苹果)</td><td style="text-align:center">:<code>apple</code>:</td><td style="text-align:center">修复 macOS 下的问题</td></tr><tr><td style="text-align:center">🐧 (企鹅)</td><td style="text-align:center">:<code>penguin</code>:</td><td style="text-align:center">修复 Linux 下的问题</td></tr><tr><td style="text-align:center">🏁 (旗帜)</td><td style="text-align:center">:<code>checked_flag</code>:</td><td style="text-align:center">修复 Windows 下的问题</td></tr><tr><td style="text-align:center">🔖 (书签)</td><td style="text-align:center">:<code>bookmark</code>:</td><td style="text-align:center">发行/版本标签</td></tr><tr><td style="text-align:center">🚨 (警车灯)</td><td style="text-align:center">:<code>rotating_light</code>:</td><td style="text-align:center">移除 linter 警告</td></tr><tr><td style="text-align:center">🚧 (施工)</td><td style="text-align:center">:<code>construction</code>:</td><td style="text-align:center">工作进行中</td></tr><tr><td style="text-align:center">💚 (绿心)</td><td style="text-align:center">:<code>green_heart</code>:</td><td style="text-align:center">修复 CI 构建问题</td></tr><tr><td style="text-align:center">⬇️ (下降箭头)</td><td style="text-align:center">:<code>arrow_down</code>:</td><td style="text-align:center">降级依赖</td></tr><tr><td style="text-align:center">⬆️ (上升箭头)</td><td style="text-align:center">:<code>arrow_up</code>:</td><td style="text-align:center">升级依赖</td></tr><tr><td style="text-align:center">👷 (工人)</td><td style="text-align:center">:<code>construction_worker</code>:</td><td style="text-align:center">添加 CI 构建系统</td></tr><tr><td style="text-align:center">📈 (上升趋势图)</td><td style="text-align:center">:<code>chart_with_upwards_trend</code>:</td><td style="text-align:center">添加分析或跟踪代码</td></tr><tr><td style="text-align:center">🔨 (锤子)</td><td style="text-align:center">:<code>hammer</code>:</td><td style="text-align:center">重大重构</td></tr><tr><td style="text-align:center">➖ (减号)</td><td style="text-align:center">:<code>heavy_minus_sign</code>:</td><td style="text-align:center">减少一个依赖</td></tr><tr><td style="text-align:center">🐳 (鲸鱼)</td><td style="text-align:center">:<code>whale</code>:</td><td style="text-align:center">Docker 相关工作</td></tr><tr><td style="text-align:center">➕ (加号)</td><td style="text-align:center">:<code>heavy_plus_sign</code>:</td><td style="text-align:center">增加一个依赖</td></tr><tr><td style="text-align:center">🔧 (扳手)</td><td style="text-align:center">:<code>wrench</code>:</td><td style="text-align:center">修改配置文件</td></tr><tr><td style="text-align:center">🌐 (地球)</td><td style="text-align:center">:<code>globe_with_meridians</code>:</td><td style="text-align:center">国际化与本地化</td></tr><tr><td style="text-align:center">✏️ (铅笔)</td><td style="text-align:center">:<code>pencil2</code>:</td><td style="text-align:center">修复 typo</td></tr></tbody></table><h3 id="参考：官方源码github-gemoji国际友人的网站gitmoji"><a href="#参考：官方源码github-gemoji国际友人的网站gitmoji" class="headerlink" title="参考：官方源码github/gemoji国际友人的网站gitmoji"></a>参考：官方源码<a href="https://github.com/github/gemoji" target="_blank" rel="noopener">github/gemoji</a>国际友人的网站<a href="https://gitmoji.carloscuesta.me/" target="_blank" rel="noopener">gitmoji</a></h3><!--         <div id="aplayer-HSvDYObj" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;"></div>  <script>  var options = {"narrow":false,"autoplay":true,"showlrc":0,"mutex":true,"music":[{"title":"에필로그 (Epilogue)","author":"이동준","url":"https://molier-1256056152.cos.ap-guangzhou.myqcloud.com/%E1%84%8B%E1%85%A6%E1%84%91%E1%85%B5%E1%86%AF%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3.mp3","pic":"https://y.gtimg.cn/music/photo_new/T002R300x300M000000RmZHf3qhLUL.jpg?max_age=2592000","lrc":"https://歌词.lrc"}]};  options.element = document.getElementById("aplayer-HSvDYObj");  var ap = new APlayer(options);    window.aplayers || (window.aplayers = []);  window.aplayers.push(ap);  </script> –&gt;-->]]></content>
+      
       <categories>
-        <category>git</category>
+          
+          <category> git </category>
+          
       </categories>
-      <tags>
-        <tag>git</tag>
-        <tag>git表情</tag>
-        <tag>emoji</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[git简单操作]]></title>
-    <url>%2Fgit%E7%AE%80%E5%8D%95%E6%93%8D%E4%BD%9C%2F</url>
-    <content type="text"><![CDATA[命令行窗口 我们平时使用计算机都是通过可视化的界面来对电脑发送命令 鼠标右键-&gt;新建-&gt;新建文件夹 命令行窗口也是一种可以向计算机发送命令的途径 通过命令的形式告诉计算机我们要做什么 mkdir 文件夹的名字 开启命令行 win + R -&gt; cmd -&gt; enter 常用命令行工具 cmd powershell git bash 常用命令 pwd (print working directory) 查看当前所在的目录 cd (change directory) 切换目录 ls (list) 查看当前目录下的内容(有兼容问题 可以用dir) clear 清屏（有兼容问题 可以用cls） mkdir (make directory) 创建目录 touch 创建文件（有兼容问题 可以用 type nul&gt;文件名） cat 查看文件内容 一次性将所有内容输出 less 查看文件内容 每一次查看部分文件内容 回车 一次向下走一行 空格 一次向下走一页 b（back） 一次向上走一页 q（quit） 退出 rm (remove) 删除文件 如 rm index.html、rm -rf blog（删除有内容的文件夹） rmdir (remove directory) 删除文件夹 只能删除空文件夹 不常用 mv (move) 移动文件或重命名 cp (copy) 复制文件 echo ‘内容’ &gt; 文件 输出内容到文件 每次输出都是覆盖原有文件内容 ehco ‘内容’ &gt;&gt; 文件 输出内容到文件 每次输出都是追新内容 命令的基本组成部分 rm(删除命令) -rf(选项) GIT是什么 版本控制工具 例子： 人事专员管理职工信息 项目功能变更导致的问题 多人开发一个项目 代码共享时的问题 GIT三大区域 工作目录 存放项目代码的目录 暂存区 临时存放更改的了文件 防止工作目录中的代码丢失 代码仓库 当开发的功能足以形成一个版本的时候 可以将代码形成版本提交到仓库 相当于复制了一份当前的代码存储到了仓库中 GIT常用命令 配置git用户名和邮箱 git config –global user.name zhangsan git config –global user.email zhangsan@163.com 查看当前的git配置 git config –list 初始化git仓库 git init 查看当前仓库的状态 git status 将工作目录中的文件添加到暂存区 git add 将暂存区中的代码提交到本地仓库 形成一个版本 git commit -m 备注 查看本地仓库中的历史提交版本 git log 将暂存区中的文件恢复到工作目录 git rm –cached 文件列表 说明: 必须保证工作目录中的代码和暂存区中的代码一致 此时工作目录中有此文件 暂存区中没有此文件 这个文件不被git管理 用暂存区中的文件覆盖工作目录中的文件 git checkout – 文件列表 说明：暂存区和工作目录都有此文件 这个文件依然被git管理 回滚到本地仓库中的特定版本并覆盖暂存区和工作目录 git reset –hard commitID 查看本地分支 git branch 查看所有分支和远程分支 git branch -a | git branch -r 创建分支 git branch 分支名称 切换分支 git checkout 分支名称 创建并切换分支 git checkout -b 分支名称 创建、切换分支并从指定远程分支拉下代码 git checkout -b 分支名称 origin/指定的远程分支名称 删除分支(如果分支没有被合并不允许删除) git branch -d 分支名称 删除分支(强制删除分支) git branch -D 分支名称 合并分支 git merge 来源分支 初始化一个裸露仓库(公共代码仓库) git init –bare 向远程仓库推送代码 git push 远程仓库地址 本地分支名称:远程分支名称 从远程仓库中拉取代码(拉取最新版本到本地 开发过程中使用) git pull 远程仓库地址 远程分支名称:本地分支名称 为远程仓库地址创建别名 git remote add 别名 远程仓库地址 查看远程地址的详情信息 git remote -v 查看当前别名所对应的远程仓库地址 git remote show 别名 删除当前别名及所对应的远程仓库地址 git remote remove 别名 从远程仓库获取代码(拉取所有版本到本地) git clone 远程仓库地址 项目名称 使用场景：加入到已有项目的开发中 需要先拉取所有版本到本地 再进行开发 冲突修复 模拟冲突 张三和李四分别克隆代码到本地 张三改了demo文件并提交到远端仓库 李四也改了同一个文件 这时因为张三已经提交了一版代码到远程仓库 远程仓库的代码要比李四本地的代码新 所以李四不能直接向远程仓库推送代码 要先拉去再推送 此时因为张三和李四改了同一个文件所以产生了冲突 李四解决冲突并再次提交代码到远程仓库 多人协作开发免登录操作 ssh-keygen gitk 可视画图形界面 可查看代码修改记录,提交作者,日期等等信息.. 很方便,我经常用的命令之一 初次打开文件中有中文(注释之类的),会显示乱码,使用该命令(utf-8)设置全局中文 git config --global gui.encoding utf-8 git使用流程 1.配置账户信息 git config –global user.name 用户名 git config –global user.email 邮箱地址 git config –list 查看当前的git配置 2.初始化本地仓库 git init 3.查看本地仓库的状态 git status 4.将工作目录中的文件提交到暂存区 git add 文件列表 git add . 添加工作目录中所有的文件到暂存区 5.将暂存区中的代码提交到本地仓库 git commit -m 备注 git commit -m “first commit” 6.将本地仓库(分支)代码提交到远程仓库(分支) git push origin master:master git 忽略清单 .gitignore文件,如我hexo’blog源码过滤文件： .DS_Store Thumbs.db db.json *.log node_modules/ public/ .deploy*/ package-lock.json git教程中文版]]></content>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> git表情 </tag>
+            
+            <tag> emoji </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
+      <title>git简单操作</title>
+      <link href="/git%E7%AE%80%E5%8D%95%E6%93%8D%E4%BD%9C/"/>
+      <url>/git%E7%AE%80%E5%8D%95%E6%93%8D%E4%BD%9C/</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h3 id="命令行窗口"><a href="#命令行窗口" class="headerlink" title="命令行窗口"></a>命令行窗口</h3><ul><li>我们平时使用计算机都是通过可视化的界面来对电脑发送命令<ul><li>鼠标右键-&gt;新建-&gt;新建文件夹</li></ul></li><li>命令行窗口也是一种可以向计算机发送命令的途径<ul><li>通过命令的形式告诉计算机我们要做什么</li><li>mkdir 文件夹的名字</li></ul></li><li>开启命令行<ul><li>win + R -&gt; cmd -&gt; enter</li></ul></li><li>常用命令行工具<ul><li>cmd</li><li>powershell</li><li>git bash</li></ul></li></ul><a id="more"></a><h3 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h3><ul><li>pwd (print working directory) 查看当前所在的目录</li><li>cd (change directory) 切换目录</li><li>ls (list) 查看当前目录下的内容(有兼容问题 可以用dir)</li><li>clear 清屏（有兼容问题  可以用cls）</li><li>mkdir (make directory) 创建目录</li><li>touch 创建文件（有兼容问题 可以用 type nul&gt;文件名）</li><li>cat 查看文件内容 一次性将所有内容输出</li><li>less 查看文件内容 每一次查看部分文件内容<ul><li>回车 一次向下走一行</li><li>空格 一次向下走一页</li><li>b（back）    一次向上走一页</li><li>q（quit）    退出</li></ul></li><li>rm (remove) 删除文件 如 rm index.html、rm -rf blog（删除有内容的文件夹）</li><li>rmdir (remove directory) 删除文件夹 只能删除空文件夹 不常用</li><li>mv (move) 移动文件或重命名</li><li>cp (copy) 复制文件</li><li>echo ‘内容’ &gt; 文件 输出内容到文件 每次输出都是覆盖原有文件内容</li><li>ehco ‘内容’ &gt;&gt; 文件 输出内容到文件 每次输出都是追新内容</li><li>命令的基本组成部分<ul><li>rm(删除命令) -rf(选项)</li></ul></li></ul><h3 id="GIT是什么"><a href="#GIT是什么" class="headerlink" title="GIT是什么"></a>GIT是什么</h3><ul><li>版本控制工具<ul><li>例子：<ul><li>人事专员管理职工信息</li><li>项目功能变更导致的问题</li><li>多人开发一个项目 代码共享时的问题</li></ul></li></ul></li></ul><h3 id="GIT三大区域"><a href="#GIT三大区域" class="headerlink" title="GIT三大区域"></a>GIT三大区域</h3><ul><li>工作目录<ul><li>存放项目代码的目录</li></ul></li><li>暂存区<ul><li>临时存放更改的了文件</li><li>防止工作目录中的代码丢失</li></ul></li><li>代码仓库<ul><li>当开发的功能足以形成一个版本的时候 可以将代码形成版本提交到仓库</li><li>相当于复制了一份当前的代码存储到了仓库中</li></ul></li></ul><h3 id="GIT常用命令"><a href="#GIT常用命令" class="headerlink" title="GIT常用命令"></a>GIT常用命令</h3><ul><li>配置git用户名和邮箱<ul><li>git config –global user.name zhangsan</li><li>git config –global user.email <a href="mailto:zhangsan@163.com" target="_blank" rel="noopener">zhangsan@163.com</a></li></ul></li><li>查看当前的git配置<ul><li>git config –list</li></ul></li><li>初始化git仓库<ul><li>git init</li></ul></li><li>查看当前仓库的状态<ul><li>git status</li></ul></li><li>将工作目录中的文件添加到暂存区<ul><li>git add</li></ul></li><li>将暂存区中的代码提交到本地仓库 形成一个版本<ul><li>git commit -m 备注</li></ul></li><li>查看本地仓库中的历史提交版本<ul><li>git log</li></ul></li><li>将暂存区中的文件恢复到工作目录<ul><li>git rm –cached 文件列表</li><li>说明:<ul><li>必须保证工作目录中的代码和暂存区中的代码一致</li><li>此时工作目录中有此文件 暂存区中没有此文件 这个文件不被git管理</li></ul></li></ul></li><li>用暂存区中的文件覆盖工作目录中的文件<ul><li>git checkout – 文件列表</li><li>说明：暂存区和工作目录都有此文件 这个文件依然被git管理</li></ul></li><li>回滚到本地仓库中的特定版本并覆盖暂存区和工作目录<ul><li>git reset –hard commitID</li></ul></li><li>查看本地分支<ul><li>git branch</li></ul></li><li>查看所有分支和远程分支<ul><li>git branch -a | git branch -r  </li></ul></li><li>创建分支<ul><li>git branch 分支名称</li></ul></li><li>切换分支<ul><li>git checkout 分支名称</li></ul></li><li>创建并切换分支<ul><li>git checkout -b 分支名称</li></ul></li><li>创建、切换分支并从指定远程分支拉下代码<ul><li>git checkout -b 分支名称 origin/指定的远程分支名称</li></ul></li><li>删除分支(如果分支没有被合并不允许删除)<ul><li>git branch -d 分支名称</li></ul></li><li>删除分支(强制删除分支)<ul><li>git branch -D 分支名称</li></ul></li><li>合并分支<ul><li>git merge 来源分支</li></ul></li><li>初始化一个裸露仓库(公共代码仓库)<ul><li>git init –bare</li></ul></li><li>向远程仓库推送代码<ul><li>git push 远程仓库地址 本地分支名称:远程分支名称</li></ul></li><li>从远程仓库中拉取代码(拉取最新版本到本地 开发过程中使用)<ul><li>git pull 远程仓库地址 远程分支名称:本地分支名称</li></ul></li><li>为远程仓库地址创建别名<ul><li>git remote add 别名 远程仓库地址</li></ul></li><li>查看远程地址的详情信息<ul><li>git remote -v</li></ul></li><li>查看当前别名所对应的远程仓库地址<ul><li>git remote show 别名</li></ul></li><li>删除当前别名及所对应的远程仓库地址<ul><li>git remote remove 别名</li></ul></li><li>从远程仓库获取代码(拉取所有版本到本地)<ul><li>git clone 远程仓库地址 项目名称</li><li>使用场景：加入到已有项目的开发中 需要先拉取所有版本到本地 再进行开发</li></ul></li><li>冲突修复<ul><li>模拟冲突<ul><li>张三和李四分别克隆代码到本地</li><li>张三改了demo文件并提交到远端仓库</li><li>李四也改了同一个文件</li><li>这时因为张三已经提交了一版代码到远程仓库</li><li>远程仓库的代码要比李四本地的代码新</li><li>所以李四不能直接向远程仓库推送代码</li><li>要先拉去再推送</li><li>此时因为张三和李四改了同一个文件所以产生了冲突</li><li>李四解决冲突并再次提交代码到远程仓库</li></ul></li></ul></li><li>多人协作开发免登录操作<ul><li>ssh-keygen</li></ul></li><li><strong><code>gitk</code></strong> 可视画图形界面<ul><li>可查看代码修改记录,提交作者,日期等等信息.. 很方便,我经常用的命令之一</li><li>初次打开文件中有中文(注释之类的),会显示乱码,使用该命令(utf-8)设置全局中文<ul><li><strong><code>git config --global gui.encoding utf-8</code></strong></li></ul></li></ul></li></ul><h3 id="git使用流程"><a href="#git使用流程" class="headerlink" title="git使用流程"></a>git使用流程</h3><ul><li>1.配置账户信息<ul><li>git config –global user.name 用户名</li><li>git config –global user.email 邮箱地址</li><li>git config –list 查看当前的git配置</li></ul></li><li>2.初始化本地仓库<ul><li>git init</li></ul></li><li>3.查看本地仓库的状态<ul><li>git status</li></ul></li><li>4.将工作目录中的文件提交到暂存区<ul><li>git add 文件列表</li><li>git add . 添加工作目录中所有的文件到暂存区</li></ul></li><li>5.将暂存区中的代码提交到本地仓库<ul><li>git commit -m 备注</li><li>git commit -m “first commit”</li></ul></li><li>6.将本地仓库(分支)代码提交到远程仓库(分支)<ul><li>git push origin master:master</li></ul></li></ul><h3 id="git-忽略清单"><a href="#git-忽略清单" class="headerlink" title="git 忽略清单"></a>git 忽略清单</h3><ul><li>.gitignore文件,如我hexo’blog源码过滤文件：<ul><li>.DS_Store</li><li>Thumbs.db</li><li>db.json</li><li>*.log</li><li>node_modules/</li><li>public/</li><li>.deploy*/</li><li>package-lock.json</li></ul></li></ul><h3 id="git教程中文版"><a href="#git教程中文版" class="headerlink" title="git教程中文版"></a><a href="http://iissnan.com/progit/" target="_blank" rel="noopener">git教程中文版</a></h3>]]></content>
+      
       <categories>
-        <category>git</category>
+          
+          <category> git </category>
+          
       </categories>
-      <tags>
-        <tag>git</tag>
-        <tag>git教程</tag>
-        <tag>git命令</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[about]]></title>
-    <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[categories]]></title>
-    <url>%2Fcategories%2Findex.html</url>
-    <content type="text"><![CDATA[]]></content>
-  </entry>
-  <entry>
-    <title><![CDATA[tags]]></title>
-    <url>%2Ftags%2Findex.html</url>
-    <content type="text"><![CDATA[]]></content>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> git </tag>
+            
+            <tag> git教程 </tag>
+            
+            <tag> git命令 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+  
+  
+    
+    <entry>
+      <title>about</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    </entry>
+    
+    <entry>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    </entry>
+    
+    <entry>
+      <title>tags</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
+      <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script>]]></content>
+    </entry>
+    
+  
 </search>
