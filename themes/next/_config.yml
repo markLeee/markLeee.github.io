@@ -620,9 +620,9 @@ gitment:
 #           Technorati,Posterous,Tumblr,GoogleBookmarks,Newsvine,
 #           Evernote,Friendfeed,Vkontakte,Odnoklassniki,Mailru
 needmoreshare2: #博客转发按钮
-  enable: false
+  enable: true
   postbottom:
-    enable: false
+    enable: true
     options:
       iconStyle: box
       boxForm: horizontal
