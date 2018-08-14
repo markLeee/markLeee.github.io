@@ -27,11 +27,6 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[about]]></title>
-    <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[categories]]></title>
     <url>%2Fcategories%2Findex.html</url>
     <content type="text"><![CDATA[]]></content>
@@ -42,8 +37,13 @@
     <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
+    <title><![CDATA[about]]></title>
+    <url>%2Fabout%2Findex.html</url>
+    <content type="text"><![CDATA[]]></content>
+  </entry>
+  <entry>
     <title><![CDATA[TopX]]></title>
     <url>%2Ftop%2Findex.html</url>
-    <content type="text"><![CDATA[AV.initialize("Sfec6FU2MNUxtkfK39hkGWsF-gzGzoHsz", "app_key"); var time=0 var title="" var url="" var query = new AV.Query('Counter'); query.notEqualTo('id',0); query.descending('time'); query.limit(1000); query.find().then(function (todo) { for (var i=0;i]]></content>
+    <content type="text"><![CDATA[AV.initialize("Sfec6FU2MNUxtkfK39hkGWsF-gzGzoHsz", "Le3HPexP996FGDAsfsoIMAqH"); var time=0 var title="" var url="" var query = new AV.Query('Counter'); query.notEqualTo('id',0); query.descending('time'); query.limit(1000); query.find().then(function (todo) { for (var i=0;i]]></content>
   </entry>
 </search>
