@@ -2063,7 +2063,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ad18ff;
+  background: #ffd9c1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3330,6 +3330,7 @@ body {
 }
 .posts-expand .post-tags {
   text-align: center;
+  margin-top: 28px;
 }
 .posts-expand .post-tags a {
   font-size: 14px;
