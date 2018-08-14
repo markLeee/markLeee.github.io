@@ -225,7 +225,7 @@ avatar:
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
   # url: /uploads/mieba.jpg
-  url: https://marklee-cdn.oss-cn-beijing.aliyuncs.com/mieba.jpg?Expires=1534235404&OSSAccessKeyId=TMP.AQGx3njaVDrv5PznuLxZ4HaZ-hCsbuYrZgXR4EnyY7EAQ4agBEgLKEhRm2paMC4CFQCGT4J5CIeP9Kb9vuSLUg6wqb1g1AIVAPTzxRJKPi3cQbGiWMVrRqM785AY&Signature=XwayxgMvqRhvgUswrL9eFLYLWL4%3D
+  url: https://marklee-cdn.oss-cn-beijing.aliyuncs.com/mieba.jpg?x-oss-process=style/background&Expires=1534241010&OSSAccessKeyId=TMP.AQGx3njaVDrv5PznuLxZ4HaZ-hCsbuYrZgXR4EnyY7EAQ4agBEgLKEhRm2paMC4CFQCGT4J5CIeP9Kb9vuSLUg6wqb1g1AIVAPTzxRJKPi3cQbGiWMVrRqM785AY&Signature=%2B%2BHBV%2Ba0k60u8SIQF8XrMPn0ZbQ%3D
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -365,7 +365,7 @@ codeblock:
 # Reward 打赏设置
 # reward_comment: 随缘随意~
 # wechatpay: /uploads/wechatpay.jpg
-wechatpay: https://marklee-cdn.oss-cn-beijing.aliyuncs.com/wechatpay.jpg?Expires=1534235453&OSSAccessKeyId=TMP.AQGx3njaVDrv5PznuLxZ4HaZ-hCsbuYrZgXR4EnyY7EAQ4agBEgLKEhRm2paMC4CFQCGT4J5CIeP9Kb9vuSLUg6wqb1g1AIVAPTzxRJKPi3cQbGiWMVrRqM785AY&Signature=lWOLb7oXHGhPjHzbyWV00hwwHDM%3D
+wechatpay: https://marklee-cdn.oss-cn-beijing.aliyuncs.com/wechatpay.jpg?x-oss-process=style/background&Expires=1534241035&OSSAccessKeyId=TMP.AQGx3njaVDrv5PznuLxZ4HaZ-hCsbuYrZgXR4EnyY7EAQ4agBEgLKEhRm2paMC4CFQCGT4J5CIeP9Kb9vuSLUg6wqb1g1AIVAPTzxRJKPi3cQbGiWMVrRqM785AY&Signature=nFrYtBOqY59ij9Frb1CqgpNpixc%3D
 # alipay: /images/alipay.jpg
 # bitcoin: /images/bitcoin.png
 
@@ -699,9 +699,8 @@ vkontakte_api:
 # 评分，教程见本文 5.6 节
 rating:
   enable: true
-  id:     #<app_id>
-  # color:  fc6423
-  color:  f79533
+  id: 13222 #<app_id>
+  color: 2196f3
 # ---------------------------------------------------------------
 
 # Show number of visitors to each article.
