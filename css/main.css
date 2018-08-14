@@ -2063,7 +2063,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffd9c1;
+  background: #050eff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3078,7 +3078,7 @@ hr {
   }
 }
 body {
-  background-image: url("/uploads/ae86.jpg");
+  background-image: url("https://marklee-cdn.oss-cn-beijing.aliyuncs.com/ae86.jpg?Expires=1534234978&OSSAccessKeyId=TMP.AQGx3njaVDrv5PznuLxZ4HaZ-hCsbuYrZgXR4EnyY7EAQ4agBEgLKEhRm2paMC4CFQCGT4J5CIeP9Kb9vuSLUg6wqb1g1AIVAPTzxRJKPi3cQbGiWMVrRqM785AY&Signature=kWfSDLWThBviuaTUUtY7cr2JRB0%3D");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
@@ -3363,6 +3363,7 @@ body {
 }
 #needsharebutton-postbottom .btn:hover {
   color: #a166ab !important;
+  border: 2px solid #a166ab !important;
 }
 .post-nav {
   margin-top: 30px;
