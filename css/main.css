@@ -2063,7 +2063,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff55e9;
+  background: #ff58f7;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3348,6 +3348,13 @@ body {
   transform: translateY(-1px);
 }
 .post-widgets {
+  border-top: 1px solid #e3e3e3;
+}
+.wp_rating,
+#wp_rating {
+  font-family: 'Comic Sans MS', sans-serif;
+}
+.post-widgets {
   margin-top: 10px;
   padding-top: 0px;
 }
@@ -3356,6 +3363,7 @@ body {
 }
 .social_share {
   margin-right: 50px;
+  margin-top: 8px;
 }
 #needsharebutton-postbottom .btn {
   color: #4c618f !important;
