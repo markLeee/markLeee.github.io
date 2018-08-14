@@ -627,7 +627,7 @@ needmoreshare2: #博客转发按钮
       iconStyle: box
       boxForm: horizontal
       position: bottomCenter
-      networks: Weibo,Wechat,Douban,QQZone,Twitter,Facebook
+      networks: Weibo,Wechat,Douban,GooglePlus,Twitter,Facebook
   float:
     enable: false
     options:
