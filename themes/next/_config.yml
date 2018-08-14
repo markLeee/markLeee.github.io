@@ -130,7 +130,7 @@ menu:
   home: / || home
   archives: /archives/ || archive
   tags: /tags/ || tags
-  top: /top/ || signal
+  # top: /top/ || signal
   # categories: /categories/ || th
   # schedule: /schedule/ || calendar
   # sitemap: /sitemap.xml || sitemap
@@ -225,8 +225,8 @@ avatar:
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  # url: /uploads/mieba.jpg
-  url: https://marklee-cdn.oss-cn-beijing.aliyuncs.com/mieba.jpg?x-oss-process=style/background&Expires=1534241010&OSSAccessKeyId=TMP.AQGx3njaVDrv5PznuLxZ4HaZ-hCsbuYrZgXR4EnyY7EAQ4agBEgLKEhRm2paMC4CFQCGT4J5CIeP9Kb9vuSLUg6wqb1g1AIVAPTzxRJKPi3cQbGiWMVrRqM785AY&Signature=%2B%2BHBV%2Ba0k60u8SIQF8XrMPn0ZbQ%3D
+  url: /uploads/mieba.jpg
+  # url: https://marklee-cdn.oss-cn-beijing.aliyuncs.com/mieba.jpg?x-oss-process=style/background&Expires=1534241010&OSSAccessKeyId=TMP.AQGx3njaVDrv5PznuLxZ4HaZ-hCsbuYrZgXR4EnyY7EAQ4agBEgLKEhRm2paMC4CFQCGT4J5CIeP9Kb9vuSLUg6wqb1g1AIVAPTzxRJKPi3cQbGiWMVrRqM785AY&Signature=%2B%2BHBV%2Ba0k60u8SIQF8XrMPn0ZbQ%3D
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -365,8 +365,8 @@ codeblock:
 
 # Reward 打赏设置
 # reward_comment: 随缘随意~
-# wechatpay: /uploads/wechatpay.jpg
-wechatpay: https://marklee-cdn.oss-cn-beijing.aliyuncs.com/wechatpay.jpg?x-oss-process=style/background&Expires=1534241035&OSSAccessKeyId=TMP.AQGx3njaVDrv5PznuLxZ4HaZ-hCsbuYrZgXR4EnyY7EAQ4agBEgLKEhRm2paMC4CFQCGT4J5CIeP9Kb9vuSLUg6wqb1g1AIVAPTzxRJKPi3cQbGiWMVrRqM785AY&Signature=nFrYtBOqY59ij9Frb1CqgpNpixc%3D
+wechatpay: /uploads/wechatpay.jpg
+# wechatpay: https://marklee-cdn.oss-cn-beijing.aliyuncs.com/wechatpay.jpg?x-oss-process=style/background&Expires=1534241035&OSSAccessKeyId=TMP.AQGx3njaVDrv5PznuLxZ4HaZ-hCsbuYrZgXR4EnyY7EAQ4agBEgLKEhRm2paMC4CFQCGT4J5CIeP9Kb9vuSLUg6wqb1g1AIVAPTzxRJKPi3cQbGiWMVrRqM785AY&Signature=nFrYtBOqY59ij9Frb1CqgpNpixc%3D
 # alipay: /images/alipay.jpg
 # bitcoin: /images/bitcoin.png
 
@@ -710,7 +710,7 @@ rating:
 # 然后可以通过阅读量建立 TopX 页面，教程链接：
 # https://notes.wanghao.work/2015-10-21-为NexT主题添加文章阅读量统计功能.html
 leancloud_visitors:
-  enable: true
+  enable: false
   app_id: Sfec6FU2MNUxtkfK39hkGWsF-gzGzoHsz #<app_id>
   app_key: Le3HPexP996FGDAsfsoIMAqH #<app_key>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security

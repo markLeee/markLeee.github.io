@@ -215,7 +215,7 @@
                  <span class="post-meta-item-text">{{__('post.views') + __('symbol.colon') }}</span>
                {% endif %}
                  <span class="leancloud-visitors-count"></span>
-             </span>
+             </span>  
           {% endif %}
 
           {% if not is_index and theme.busuanzi_count.enable and theme.busuanzi_count.post_views %}
