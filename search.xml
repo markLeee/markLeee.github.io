@@ -41,4 +41,9 @@
     <url>%2Ftags%2Findex.html</url>
     <content type="text"><![CDATA[]]></content>
   </entry>
+  <entry>
+    <title><![CDATA[TopX]]></title>
+    <url>%2Ftop%2Findex.html</url>
+    <content type="text"><![CDATA[AV.initialize("Sfec6FU2MNUxtkfK39hkGWsF-gzGzoHsz", "app_key"); var time=0 var title="" var url="" var query = new AV.Query('Counter'); query.notEqualTo('id',0); query.descending('time'); query.limit(1000); query.find().then(function (todo) { for (var i=0;i]]></content>
+  </entry>
 </search>

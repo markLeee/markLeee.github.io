@@ -188,17 +188,18 @@ var _hmt = _hmt || [];
 
 
 
-  <meta name="description" content="反手就是一张过去的CD~">
-<meta name="keywords" content="hexo,hexo-blog,hexo-theme-next,前端web,HTML,CSS,JavaScript">
+  <meta name="description" content="博客文章阅读量排行榜">
+<meta name="keywords" content="top,文章阅读量排行榜">
 <meta property="og:type" content="website">
-<meta property="og:title" content="MarkLees&#39;Blog">
-<meta property="og:url" content="https://www.marklee.top/archives/2017/index.html">
+<meta property="og:title" content="TopX">
+<meta property="og:url" content="https://www.marklee.top/top/index.html">
 <meta property="og:site_name" content="MarkLees&#39;Blog">
-<meta property="og:description" content="反手就是一张过去的CD~">
+<meta property="og:description" content="博客文章阅读量排行榜">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2018-08-14T10:04:12.356Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="MarkLees&#39;Blog">
-<meta name="twitter:description" content="反手就是一张过去的CD~">
+<meta name="twitter:title" content="TopX">
+<meta name="twitter:description" content="博客文章阅读量排行榜">
 
 
 
@@ -207,7 +208,7 @@ var _hmt = _hmt || [];
 
 
 
-  <link rel="canonical" href="https://www.marklee.top/archives/2017/"/>
+  <link rel="canonical" href="https://www.marklee.top/top/"/>
 
 
 
@@ -217,7 +218,7 @@ var _hmt = _hmt || [];
   };
 </script>
 
-  <title>归档 | MarkLees'Blog</title>
+  <title>TopX | MarkLees'Blog</title>
   
 
 
@@ -274,7 +275,7 @@ var _hmt = _hmt || [];
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
     
     <div class="github-link">
@@ -330,7 +331,7 @@ var _hmt = _hmt || [];
         
         
           
-          <li class="menu-item menu-item-archives menu-item-active">
+          <li class="menu-item menu-item-archives">
     <a href="/archives/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
   </li>
@@ -346,7 +347,7 @@ var _hmt = _hmt || [];
         
         
           
-          <li class="menu-item menu-item-top">
+          <li class="menu-item menu-item-top menu-item-active">
     <a href="/top/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-signal"></i> <br />top</a>
   </li>
@@ -455,113 +456,74 @@ var _hmt = _hmt || [];
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
+
+<h1 class="post-title" itemprop="name headline">TopX</h1>
+
+<div class="post-meta">
+  
+    <div class="post-description">博客文章阅读量排行榜</div>
   
   
-  
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+
+
+
+</div>
+
+</header>
 
       
-      <span class="archive-page-counter">
-        
-        
-        
-          
-        
-        嗯..! 目前共计 2 篇日志。 继续努力。
-      </span>
       
-
       
+      <div class="post-body">
+        
+        
+          <p><div id="top"></div></p>
+<script src="https://cdn1.lncld.net/static/js/av-core-mini-0.6.4.js"></script>
+<script>AV.initialize("Sfec6FU2MNUxtkfK39hkGWsF-gzGzoHsz", "app_key");</script>
+<script type="text/javascript">
+  var time=0
+  var title=""
+  var url=""
+  var query = new AV.Query('Counter');
+  query.notEqualTo('id',0);
+  query.descending('time');
+  query.limit(1000);
+  query.find().then(function (todo) {
+    for (var i=0;i<1000;i++){
+      var result=todo[i].attributes;
+      time=result.time;
+      title=result.title;
+      url=result.url;
+      var content="<a href='"+"https://www.marklee.top"+url+"'>"+title+"</a>"+"<br />"+"<font color='#555'>"+"阅读次数："+time+"</font>"+"<br /><br />";
+      document.getElementById("top").innerHTML+=content
+    }
+  }, function (error) {
+    console.log("error");
+  });
+</script>
 
+<p><style>.post-description { display: none; }<style></p>
+</style></p>
         
-        
-        
-
-        
-          
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2017">2017</h1>
-          </div>
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/git-commit-emoji指南/" itemprop="url">
-              
-                <span itemprop="name">git-commit-emoji指南</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-06-02T14:36:35+08:00"
-              content="2017-06-02" >
-          06-02
-        </time>
       </div>
-
-    </header>
-  </article>
-
-
-
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/git简单操作/" itemprop="url">
-              
-                <span itemprop="name">git简单操作</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2017-06-01T16:35:01+08:00"
-              content="2017-06-01" >
-          06-01
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
-
+      
     </div>
+    
+
+
+
+    
+    
+    
   </div>
-  
-  
-  
-
-  
-
 
 
           </div>
@@ -1013,6 +975,10 @@ var _hmt = _hmt || [];
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
+
+
 
   
 
