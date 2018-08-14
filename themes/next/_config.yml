@@ -224,7 +224,8 @@ avatar:
   # in theme directory(source/images): /images/avatar.gif
   # in site  directory(source/uploads): /uploads/avatar.gif
   # You can also use other linking images.
-  url: /uploads/mieba.jpg
+  # url: /uploads/mieba.jpg
+  url: https://marklee-cdn.oss-cn-beijing.aliyuncs.com/mieba.jpg?Expires=1534235404&OSSAccessKeyId=TMP.AQGx3njaVDrv5PznuLxZ4HaZ-hCsbuYrZgXR4EnyY7EAQ4agBEgLKEhRm2paMC4CFQCGT4J5CIeP9Kb9vuSLUg6wqb1g1AIVAPTzxRJKPi3cQbGiWMVrRqM785AY&Signature=XwayxgMvqRhvgUswrL9eFLYLWL4%3D
   # If true, the avatar would be dispalyed in circle.
   rounded: false
   # The value of opacity should be choose from 0 to 1 to set the opacity of the avatar.
@@ -363,7 +364,8 @@ codeblock:
 
 # Reward 打赏设置
 # reward_comment: 随缘随意~
-wechatpay: /uploads/wechatpay.jpg
+# wechatpay: /uploads/wechatpay.jpg
+wechatpay: https://marklee-cdn.oss-cn-beijing.aliyuncs.com/wechatpay.jpg?Expires=1534235453&OSSAccessKeyId=TMP.AQGx3njaVDrv5PznuLxZ4HaZ-hCsbuYrZgXR4EnyY7EAQ4agBEgLKEhRm2paMC4CFQCGT4J5CIeP9Kb9vuSLUg6wqb1g1AIVAPTzxRJKPi3cQbGiWMVrRqM785AY&Signature=lWOLb7oXHGhPjHzbyWV00hwwHDM%3D
 # alipay: /images/alipay.jpg
 # bitcoin: /images/bitcoin.png
 
