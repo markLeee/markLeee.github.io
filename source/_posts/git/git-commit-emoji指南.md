@@ -7,6 +7,8 @@ tags:
     - emoji
 categories: git
 ---
+<img src="https://marklee.oss-cn-beijing.aliyuncs.com/images/gitemoji.png" alt="" style="width:100%" />
+<!-- more -->
 
 ### git commint时添加表情
 - 执行 git commit 时使用 emoji 为本次提交打上一个 "标签", 使得此次 commit 的主要工作得以凸现，也能够使得其在整个提交历史中易于区分与查找。
@@ -17,7 +19,7 @@ categories: git
 - 初次提交示例：
   + `git commit -m ":`tada`: Initialize Repo"`
   
-<!--more-->
+
   | emoji                | emoji代码                     | commit说明                 |
   | :------------------: | :---------------------------: | :------------------------: |
   | 🎨 (调色板)          | :`art`:                       | 改进代码结构/代码格式      |

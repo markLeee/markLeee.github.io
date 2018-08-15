@@ -1,5 +1,5 @@
 ---
-title: hexo-post
+title: hexo文章写作配置
 date: 2017-08-18 16:34:23
 tags: 
     - hexo
@@ -11,18 +11,13 @@ image:
 ---
 <p class="description"></p>
 
-<img src="https://" alt="" style="width:100%" />
-
+<img src="https://marklee.oss-cn-beijing.aliyuncs.com/images/codeing.jpg" alt="" style="width:100%" />
 <!-- more -->
 
-### 参照大佬的[blog](https://reuixiy.github.io/)配置了一下自己的小站
-以此来记录一些hexo配置的时候的注意事项和知识点,以供学习！
+#### 参照大佬的[blog](https://reuixiy.github.io/)
+**配置了一下自己的小站,以此来记录一些hexo配置的时候的注意事项和知识点,以供学习！**
 
-`/* ！！！！！！！！！！
-** 每一项的 : 后面均有一个空格
-** 且 : 为英文符号
-** ！！！！！！！！！！
-*/`
+`!!!每一项的 : 后面均有一个空格 且 `:` 为英文符号!!!`
 
 #### title:
 - 文章标题，可以为中文 

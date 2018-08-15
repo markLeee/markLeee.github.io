@@ -7,6 +7,8 @@ tags:
     - git命令
 categories: git
 ---
+<img src="https://marklee.oss-cn-beijing.aliyuncs.com/images/git.jpg" alt="" style="width:100%" />
+<!-- more -->
 
 ### 命令行窗口
 - 我们平时使用计算机都是通过可视化的界面来对电脑发送命令
@@ -21,7 +23,6 @@ categories: git
     + powershell
     + git bash
   
-<!--more-->
 ### 常用命令
 - pwd (print working directory) 查看当前所在的目录
 - cd (change directory) 切换目录
