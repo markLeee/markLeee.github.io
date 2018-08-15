@@ -133,5 +133,7 @@
   {% include '_third-party/exturl.swig' %}
   {% include '_third-party/bookmark.swig' %}
   {% include '_third-party/copy-code.swig' %}
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+  <script>$("body").backstretch("https://marklee.oss-cn-beijing.aliyuncs.com/images/background.jpg")</script>
 </body>
 </html>
