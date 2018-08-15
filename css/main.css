@@ -1822,6 +1822,13 @@ pre .javascript .function {
     transform: rotateZ(-30deg);
   }
 }
+.post-copyright {
+  margin: 2em 0 0;
+  padding: 0.5em 1em;
+  border-left: 3px solid #ff1700;
+  background-color: #f9f9f9;
+  list-style: none;
+}
 .post-widgets {
   border-top: 1px solid #eee;
   padding-top: 9px;
@@ -2063,7 +2070,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff45;
+  background: #ff8163;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3346,6 +3353,10 @@ body {
   -ms-transform: translateY(-1px);
   -o-transform: translateY(-1px);
   transform: translateY(-1px);
+}
+.post-copyright a {
+  border-bottom: none;
+  font-family: 'Comic Sans MS', sans-serif;
 }
 .post-widgets {
   border-top: 1px solid #e3e3e3;
