@@ -54,7 +54,7 @@ titlecase: false    #把标题转为title case
 external_link: true #在新标签中打开一个外部链接，默认为true
 filename_case: 0 # 转换文件名，1代表小写；2代表大写；默认为0，意思就是创建文章的时候，是否自动帮你转换文件名，默认就行，
 render_drafts: false  # 是否渲染_drafts目录下的文章，默认为false
-post_asset_folder: false  # 是否启用Asset Folder，默认为false
+post_asset_folder: true  # 是否启用Asset Folder，默认为false
 relative_link: false
 future: true  # 是否显示未来日期文章，默认为true
 # 代码高亮设置
