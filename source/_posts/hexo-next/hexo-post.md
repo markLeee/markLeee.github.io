@@ -1,10 +1,9 @@
 ---
-title: hexo-post.md
-tags: [
+title: hexo-post
+date: 2017-08-18 16:34:23
+tags: 
     - hexo
     - hexo-post
-]
-date: 2018-08-15 16:34:23
 permalink:
 categories: hexo
 description:
@@ -98,5 +97,3 @@ sticky: (文章置顶)
 password: (文章密码)
 - 此项只有[参考教程](http://shenzekun.cn/hexo的next主题个性化配置教程.html)第24节，配置好，否则请勿添加！
 - 发现还是有 bug 的，就是右键在新标签中打开,然后无论是否输入密码，都能看到内容
-
-<hr />
