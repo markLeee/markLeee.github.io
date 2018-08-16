@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[hexo文章写作配置]]></title>
     <url>%2Fhexo-next%2Fhexo%E6%96%87%E7%AB%A0%E5%86%99%E4%BD%9C%E9%85%8D%E7%BD%AE%2F</url>
-    <content type="text"><![CDATA[参照大佬的blog配置了一下自己的小站,以此来记录一些hexo配置的时候的注意事项和知识点,以供学习！ !!!每一项的 : 后面均有一个空格 且:为英文符号!!! title: 文章标题，可以为中文 date: (建立日期) 如果自己手动添加，请按固定格式就算不写，页面每篇文章顶部的发表于……也能显示 只要在主题配置文件中，配置了 created_at 就行 自定义文章发布的时间 updated: (更新日期) 其它与上面的建立日期类似 不过在页面每篇文章顶部，是更新于…… 在主题配置文件中，是 updated_at permalink: 若站点配置文件下的 permalink 配置了 title 则可以替换文章 URL 里面的 title（文章标题） categories: (分类，支持多级) technology computer computer-aided-art 则为technology/computer/computer-aided-art（不适用于 layout: page） tags: (标签) 多个可以这样写[标签1,标签2,标签3]（不适用于 layout: page） description: (文章的描述) 在每篇文章标题下方显示,并且作为网页的 description 元数据 如果不写，则自动取 &lt;!-- more --&gt; 之前的文字作为网页的 description 元数据 建议每篇文章都务必加上！ keywords: (关键字) 并且作为网页的 keywords 元数据 如果不写，则自动取 tags 里的项 comments: (评论)) 是否开启评论 默认值是 true 要关闭写 false layout: (页面布局) 默认值是 post，默认值可以在站点配置文件中修改 default_layout 另：404 页面可能用到，将其值改为 false type: categories，目录页面 tags，标签页面 picture，用来生成 group-pictures 详情参考 photos: () Gallery support，用来支持画廊 / 相册，用法如下： photo_url_1 photo_url_2 photo_url_3 详情参考 link: 文章的外部链接 详情参考 image: (文章摘要图片) 自定义的文章摘要图片，只在页面展示，文章内消失 此项只有参考本文 5.14 节配置好，否则请勿添加！ sticky: (文章置顶) 此项只有参考本文 5.15 节配置好，否则请勿添加！ password: (文章密码) 此项只有参考教程第24节，配置好，否则请勿添加！ 发现还是有 bug 的，就是右键在新标签中打开,然后无论是否输入密码，都能看到内容]]></content>
+    <content type="text"><![CDATA[参照大佬的blog配置了一下自己的小站,以此来记录一些hexo配置的时候的注意事项和知识点,以供学习！ !!!每一项的 : 后面均有一个空格 且:为英文符号!!! title: 文章标题，可以为中文 date: (建立日期) 如果自己手动添加，请按固定格式就算不写，页面每篇文章顶部的发表于……也能显示 只要在主题配置文件中，配置了 created_at 就行 自定义文章发布的时间 updated: (更新日期) 其它与上面的建立日期类似 不过在页面每篇文章顶部，是更新于…… 在主题配置文件中，是 updated_at permalink: 若站点配置文件下的 permalink 配置了 title 则可以替换文章 URL 里面的 title（文章标题） categories: (分类，支持多级) technology computer computer-aided-art 则为technology/computer/computer-aided-art（不适用于 layout: page） tags: (标签) 多个可以这样写[标签1,标签2,标签3]（不适用于 layout: page） description: (文章的描述) 在每篇文章标题下方显示,并且作为网页的 description 元数据 如果不写，则自动取 &lt;!-- more --&gt; 之前的文字作为网页的 description 元数据 建议每篇文章都务必加上！ keywords: (关键字) 并且作为网页的 keywords 元数据 如果不写，则自动取 tags 里的项 comments: (评论)) 是否开启评论 默认值是 true 要关闭写 false layout: (页面布局) 默认值是 post，默认值可以在站点配置文件中修改 default_layout 另：404 页面可能用到，将其值改为 false type: categories，目录页面 tags，标签页面 picture，用来生成 group-pictures 详情参考 photos: Gallery support，用来支持画廊 / 相册，用法如下： photo_url_1 photo_url_2 photo_url_3 详情参考 link: 文章的外部链接 详情参考 image: (文章摘要图片) 自定义的文章摘要图片，只在页面展示，文章内消失 此项只有参考本文 5.14 节配置好，否则请勿添加！ sticky: (文章置顶) 此项只有参考本文 5.15 节配置好，否则请勿添加！ password: (文章密码) 此项只有参考教程第24节，配置好，否则请勿添加！ 发现还是有 bug 的，就是右键在新标签中打开,然后无论是否输入密码，都能看到内容]]></content>
       <categories>
         <category>hexo</category>
       </categories>
@@ -39,14 +39,14 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[tags]]></title>
-    <url>%2Ftags%2Findex.html</url>
+    <title><![CDATA[about]]></title>
+    <url>%2Fabout%2Findex.html</url>
     <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
-    <title><![CDATA[TopX]]></title>
-    <url>%2Ftop%2Findex.html</url>
-    <content type="text"><![CDATA[AV.initialize("Sfec6FU2MNUxtkfK39hkGWsF-gzGzoHsz", "Le3HPexP996FGDAsfsoIMAqH"); var time=0 var title="" var url="" var query = new AV.Query('Counter'); query.notEqualTo('id',0); query.descending('time'); query.limit(1000); query.find().then(function (todo) { for (var i=0;i]]></content>
+    <title><![CDATA[tags]]></title>
+    <url>%2Ftags%2Findex.html</url>
+    <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
     <title><![CDATA[categories]]></title>
@@ -54,8 +54,8 @@
     <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
-    <title><![CDATA[about]]></title>
-    <url>%2Fabout%2Findex.html</url>
-    <content type="text"><![CDATA[]]></content>
+    <title><![CDATA[TopX]]></title>
+    <url>%2Ftop%2Findex.html</url>
+    <content type="text"><![CDATA[AV.initialize("Sfec6FU2MNUxtkfK39hkGWsF-gzGzoHsz", "Le3HPexP996FGDAsfsoIMAqH"); var time=0 var title="" var url="" var query = new AV.Query('Counter'); query.notEqualTo('id',0); query.descending('time'); query.limit(1000); query.find().then(function (todo) { for (var i=0;i]]></content>
   </entry>
 </search>
