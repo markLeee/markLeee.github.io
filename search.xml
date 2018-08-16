@@ -39,13 +39,13 @@
       </tags>
   </entry>
   <entry>
-    <title><![CDATA[about]]></title>
-    <url>%2Fabout%2Findex.html</url>
+    <title><![CDATA[tags]]></title>
+    <url>%2Ftags%2Findex.html</url>
     <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
-    <title><![CDATA[tags]]></title>
-    <url>%2Ftags%2Findex.html</url>
+    <title><![CDATA[about]]></title>
+    <url>%2Fabout%2Findex.html</url>
     <content type="text"><![CDATA[]]></content>
   </entry>
   <entry>
