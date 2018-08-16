@@ -46,49 +46,49 @@ image:
 #### tags: (标签)
 - 多个可以这样写[标签1,标签2,标签3]（不适用于 layout: page）
 
-description: (文章的描述)
+#### description: (文章的描述)
 - 在每篇文章标题下方显示,并且作为网页的 description 元数据
 - 如果不写，则自动取 `<!-- more -->`
 - 之前的文字作为网页的 description 元数据
 - 建议每篇文章都务必加上！
 
-keywords: (关键字)
+#### keywords: (关键字)
 - 并且作为网页的 keywords 元数据
 - 如果不写，则自动取 tags 里的项
 
-comments: (评论))
+#### comments: (评论))
 - 是否开启评论
 - 默认值是 true
 - 要关闭写 false
 
-layout: (页面布局)
+#### layout: (页面布局)
 - 默认值是 post，默认值可以在站点配置文件中修改 default_layout
 - 另：404 页面可能用到，将其值改为 false
 
-type: 
+#### type:
 - categories，目录页面
 - tags，标签页面
 - picture，用来生成 group-pictures
 - [详情参考](https://reuixiy.github.io/uncategorized/2010/01/01/test.html)
 
-photos: ()
+#### photos:
 - Gallery support，用来支持画廊 / 相册，用法如下：
 - photo_url_1
 - photo_url_2
 - photo_url_3
 - [详情参考](https://reuixiy.github.io/uncategorized/2010/01/01/test.html)
 
-link:
+#### link:
 - 文章的外部链接
 - [详情参考](https://reuixiy.github.io/uncategorized/2010/01/01/test.html)
 
-image: (文章摘要图片)
+#### image: (文章摘要图片)
 - 自定义的文章摘要图片，只在页面展示，文章内消失
 - 此项只有[参考本文](https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html) 5.14 节配置好，否则请勿添加！
 
-sticky: (文章置顶)
+#### sticky: (文章置顶)
 - 此项只有[参考本文](https://reuixiy.github.io/technology/computer/computer-aided-art/2017/06/09/hexo-next-optimization.html) 5.15 节配置好，否则请勿添加！
 
-password: (文章密码)
+#### password: (文章密码)
 - 此项只有[参考教程](http://shenzekun.cn/hexo的next主题个性化配置教程.html)第24节，配置好，否则请勿添加！
 - 发现还是有 bug 的，就是右键在新标签中打开,然后无论是否输入密码，都能看到内容
