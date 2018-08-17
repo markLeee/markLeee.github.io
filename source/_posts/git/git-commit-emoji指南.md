@@ -7,6 +7,8 @@ tags:
     - emoji
 categories: git
 ---
+<p class="description">git commit时添加表情标注方便与快速定位</p>
+
 <img src="https://marklee.oss-cn-beijing.aliyuncs.com/images/gitemoji.png" alt="" style="width:100%" />
 <!-- more -->
 

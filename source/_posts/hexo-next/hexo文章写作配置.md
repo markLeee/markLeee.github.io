@@ -9,7 +9,7 @@ categories: hexo
 description:
 image:
 ---
-<p class="description"></p>
+<p class="description">我是文章摘要~</p>
 
 <img src="https://marklee.oss-cn-beijing.aliyuncs.com/images/codeing.jpg" alt="" style="width:100%" />
 <!-- more -->
@@ -48,8 +48,7 @@ image:
 
 #### description: (文章的描述)
 - 在每篇文章标题下方显示,并且作为网页的 description 元数据
-- 如果不写，则自动取 `<!-- more -->`
-- 之前的文字作为网页的 description 元数据
+- 如果不写，则自动取 `<!-- more -->` 之前的文字作为网页的 description 元数据
 - 建议每篇文章都务必加上！
 
 #### keywords: (关键字)

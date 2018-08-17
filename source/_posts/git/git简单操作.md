@@ -7,6 +7,8 @@ tags:
     - git命令
 categories: git
 ---
+<p class="description">记录一些git命令~</p>
+
 <img src="https://marklee.oss-cn-beijing.aliyuncs.com/images/git.jpg" alt="" style="width:100%" />
 <!-- more -->
 
